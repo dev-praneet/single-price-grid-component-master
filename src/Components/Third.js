@@ -3,6 +3,9 @@ import { Dummy } from './First';
 
 const Wrapper = styled.div`
     background-color: ${props => props.theme.color.cyan};
+    @media (min-width: ${props => props.theme.breakpoint.mobile}) {
+        grid-area: third;
+    }
 `;
 
 const Container = styled.div`

@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-
+    @media (min-width: ${props => props.theme.breakpoint.mobile}) {
+        grid-area: first;
+    }
 `;
 
 const Container = styled.div`

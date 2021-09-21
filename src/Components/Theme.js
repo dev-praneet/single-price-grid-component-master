@@ -12,7 +12,7 @@ size: {
 },
 },
 breakpoint: {
-mobile: '850px',
+mobile: '600px',
 },
 };
 

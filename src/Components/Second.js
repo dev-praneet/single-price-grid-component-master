@@ -3,6 +3,9 @@ import { Dummy } from './First';
 
 const Wrapper = styled.div`
     background-color: hsl(179, 62%, 41%);
+    @media (min-width: ${props => props.theme.breakpoint.mobile}) {
+        grid-area: second;
+    }
 `;
 
 const Container = styled.div`
